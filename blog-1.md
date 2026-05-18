@@ -47,17 +47,17 @@ if (typeof value === "string") {
 
 This approach prevents unexpected runtime issues.
 
-## vWhat is Type Narrowing?
+## What is Type Narrowing?
 
 Type narrowing means reducing a broad type into a more specific type using checks.
 
 TypeScript commonly uses:
 
-typeof
-instanceof
-in operator
-custom type guards
-Example
+1. typeof
+2. instanceof
+3. in operator
+4. custom type guards
+
 ```ts
 function printValue(value: string | number): string {
   if (typeof value === "string") {
